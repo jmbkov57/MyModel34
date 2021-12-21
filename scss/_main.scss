@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+body, html {
+    margin: 0;
+}
+.header {
+    background: url(../img/Layer\ 12_edited.jpg);
+    // background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    height: 4.375rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.589);
+    background-color: white;
+}
+.navlinks__link {
+    margin-left: 3.125rem;
+}
+.logo__name--link {
+    color: white;
+}
+.btn {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.459);
+    padding: 1.25rem 1.875rem;
+    cursor: pointer;
+}
+.logo { 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    background-color: #63c6ae;
+    background-size: cover;
+}
+.logo__name {
+    color: white;
+    padding-right: 3.125rem;
+    padding-left: 12.5rem;
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}   
+.navlinks {
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+}
+.navlinks__link {
+    color: black    ;
+}
+.navlinks :first-child {
+    color: #63c6ae;
+}
+.paragraph {
+    font-family: 'Sintony', sans-serif;
+    color: white;
+}
+.content__paragraph--green {
+    font-family: 'Sintony', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    align-items: center;
+    padding-top: 1.3125rem;
+}
+.content__container--green {
+    text-align: center;
+    margin:200px auto;
+    min-height: 5rem;
+    max-width: 40rem;
+    max-height: 6.25rem;
+    background-color: #63c6ae;
+    margin-bottom: 0.625rem;
+}
+.content__container--black {
+    text-align: center;
+    margin: 0 auto;
+    min-height: 5rem;
+    max-width: 33rem;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    max-height: 6.25rem;
+    background-color: #242a2c;  
+}
+.header__button {
+    display: block;
+    background: rgba(0, 0, 0, 0.164);
+    margin: 0 auto;
+    color: white;
+    margin-top: 3.5rem;
+    border-radius: 3%;
+}
