@@ -7,16 +7,22 @@
   max-width: 1180px;
   margin: auto;
   align-items: center;
+  @media screen and (max-width: 1030px) {
+    display: block;
+    .content__block {
+      margin: 0 auto;
+    }
+  }
 }
 .d-block {
   display: block;
 }
 .content__block {
-  margin-top: 70px;
+  padding-top: 70px;
   max-width: 580px;
   margin-left: 20px;
-  &:first-child {
-    margin-left: 0;
+  @media screen and (max-width: 1030px) {
+    margin: 0 auto;
   }
 }
 .content__title {
